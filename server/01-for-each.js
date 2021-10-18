@@ -56,4 +56,21 @@ taskApply.forEach((taskApply) => {
   appTask.appendChild(item);
 });
 
+// =====>>>>>>>>>>>>>>>
+const appFriends = document.getElementById(`appFriend`);
+
+const friends = [
+  { name: "Mau", age: 29, done: true },
+  { name: "Luisa", age: 25, done: true },
+  { name: "Alma", age: 21, done: false },
+];
+
+friends.forEach((friends) => {
+  if (friends.name === "Mau" || friends.name === "Luisa") {
+    appFriends.innerHTML += `<li> ${friends.name} - ${friends.age}</li>`;
+  } else {
+    console.log("No! ella no es nada.");
+  }
+});
+
 console.groupEnd();

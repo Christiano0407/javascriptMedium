@@ -1,4 +1,5 @@
 console.group("Methods");
+// npx http-server client
 //(A) Method: For Each>>>
 const letter = [`a`, `b`, `c`];
 letter.forEach((element, index) =>
@@ -23,6 +24,36 @@ const products = [
 // (C)
 products.forEach((products) => {
   appPlay.innerHTML += `<li>${products.title} - ${products.price}</li>`;
+});
+
+// Exercise Task ====== >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// (A)
+const appTask = document.getElementById(`appTask`);
+// (B)
+const taskApply = [
+  { title: "Task1", done: true },
+  { title: "Task2", done: false },
+  { title: "Task3", done: true },
+];
+// (C) Method>>
+taskApply.forEach((taskApply) => {
+  // Create >
+  //(1)
+  let item = document.createElement(`li`);
+
+  let input = document.createElement(`input`);
+  input.type = `checkbox`;
+
+  //(2)
+  if (taskApply.done === true) {
+    input.checked = true;
+  }
+
+  //(3)
+  item.innerHTML = `<p> ${taskApply.title} </p>`;
+  item.appendChild(input);
+  // Invocar en app>>
+  appTask.appendChild(item);
 });
 
 console.groupEnd();

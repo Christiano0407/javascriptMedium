@@ -1,4 +1,5 @@
 console.group("Map Reloaded");
+const products = document.getElementById(`products`);
 // (A)>
 const orders = [
   {

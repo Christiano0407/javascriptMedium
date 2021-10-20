@@ -16,6 +16,12 @@
 
 - [date-fns](https://date-fns.org/)
 
+## Methods / Prototype / Array
+
+> every: method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+- [every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

@@ -1,5 +1,7 @@
 // Exercise Two>
 // <== npm i date-fns ===>
+// <== npm install date-fns --save ===>
+// <== npm audit ===> Auditoría
 //import { areIntervalsOverlapping, isOverlap } from "date-fns";
 // (A)
 const dates = [

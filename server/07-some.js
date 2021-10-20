@@ -5,15 +5,15 @@ const numbers = [1, 2, 4, 5, 8, 9];
 // Ciclo for>>
 let rta = false;
 
-for (let index = 0; index < numbers.length; index++) {
-  const element = numbers[index];
-
-  if (element % 2 === 0) {
-    rta = true;
-    break;
-  }
-}
-console.log(rta);
+/* for (let index = 0; index < numbers.length; index++) { */
+/*   const element = numbers[index]; */
+/*  */
+/*   if (element % 2 === 0) { */
+/*     rta = true; */
+/*     break; */
+/*   } */
+/* } */
+/* console.log(rta); */
 
 // Method Some>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 const somePLus = numbers.some((item) => item % 2 === 0);

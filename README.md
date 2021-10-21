@@ -33,6 +33,11 @@
 - [Method concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
   > Method Flat: method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 - [Method Flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
+  > Method Mutable Functions
+  > push: method adds one or more elements to the end of an array and returns the new length of the array.
+- [Method Push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+  > splice: method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. To access part of an array without modifying it, see slice.
+- [Method splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 ## CDN
 

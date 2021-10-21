@@ -1,5 +1,5 @@
 console.group("Method Join");
-// Method Join>>> Unificar todo un array>>>
+// Method Join>>> Unificar de acurdo a un patrón / todo un array>>>
 const elements = ["Fire", "Air", "Water"];
 console.log(elements);
 // Ciclo for>>>

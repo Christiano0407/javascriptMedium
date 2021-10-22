@@ -51,9 +51,10 @@ function showMovies(movies) {
     ${overview}
     </div>
     `;
-  });
 
-  main.appendChild(movieEl);
+    //>>
+    main.appendChild(movieEl);
+  });
 }
 
 getClassByRate = (vote) => {
@@ -65,5 +66,17 @@ getClassByRate = (vote) => {
     return "red";
   }
 };
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const searchingTerm = search.value;
+
+  if (searchingTerm) {
+    getMovies(searchApi + searchingTerm);
+
+    search.value;
+  }
+});
 
 console.groupEnd();

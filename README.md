@@ -43,6 +43,12 @@
 
 - [cdn](https://cdnjs.com/)
 
+## API
+
+> Api Project
+
+- [rapidAPI](https://rapidapi.com/hub?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
+
 # MIT License
 
 MIT License

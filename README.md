@@ -41,6 +41,12 @@
   > Method Sort: method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 - [Method Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
+## Intersection Observer API
+
+> La API Observador de Intersección provee una vía asíncrona para observar cambios en la intersección de un elemento con un elemento ancestro o con el viewport del documento de nivel superior.
+
+- [Intersection Observer](https://developer.mozilla.org/es/docs/Web/API/Intersection_Observer_API)
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

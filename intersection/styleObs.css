@@ -1,5 +1,5 @@
 /*= Media Queries / Imports (Variables) =*/
-@import url(/intersection/componentObs.css);
+@import url(../intersection/componentObs.css);
 /*Root and Style*/
 :root {
   /*Color Base*/

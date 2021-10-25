@@ -1,0 +1,116 @@
+:root {
+  /*Color Base*/
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --clr-primary-1: hsl(205, 75%, 60%);
+  --clr-primary-2: hsl(205, 89%, 70%);
+  --clr-primary-3: hsl(205, 80%, 17%);
+
+  /*Font Base*/
+  --font-base-small: 1.4rem;
+  --font-base-medium: 1.6rem;
+  --font-base-tall: 1.8rem;
+  --font-base-title: 2.4rem;
+  --spacing-character: 0.1rem;
+
+  /*Shadow Base*/
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  /*Width Base*/
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+/*Global Style*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+}
+/* ==== Observer CSS ==== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 100px;
+  text-align: center;
+}
+hero p {
+  font-size: 24px;
+}
+main {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 3rem;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+.container p {
+  margin-bottom: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.container img {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: 0.7s ease-in-out all;
+}
+.container img.left {
+  transform: translateX(-100px);
+}
+.container img.right {
+  transform: translateX(100px);
+}
+.container img.Visible {
+  opacity: 1;
+  transform: scale(1) translateX(0);
+}

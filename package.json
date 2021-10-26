@@ -4,7 +4,8 @@
   "description": "project arrays",
   "main": "index.js",
   "scripts": {
-    "start": "node /mnt/c/Users/Christian Velázquez/documents/javascriptMedium/javascriptMedium/projects/apiProject/appAPIBuild.js"
+    "start": "node /mnt/c/Users/Christian Velázquez/documents/javascriptMedium/javascriptMedium/projects/apiProject/appAPIBuild.js",
+    "promise": "node /mnt/c/Users/Christian Velázquez/documents/javascriptMedium/javascriptMedium/asyncronismo/appAsync01.js"
   },
   "repository": {
     "type": "git",

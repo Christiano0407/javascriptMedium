@@ -1,4 +1,7 @@
-// Petición para el request ===>>>
+// Petición a xmlhttpRequest>>> Instalado npm >>>
+let XMLHttpRequest = require(`xmlhttprequest`).XMLHttpRequest;
+
+// Petición para el request ===> con FETCH>>>>
 
 const fetchData = (url_api) => {
   return new Promise((resolve, reject) => {

@@ -5,7 +5,7 @@ console.group("Exercise Promise");
 const fetchData = require(`../asyncronismo/utils/fetchDataJs`);
 
 //>> API>> (b) >
-const API = `https://rickandmortyapi.com/api/character`;
+const API = `https://rickandmortyapi.com/api/character/`;
 
 //>> Peticiones> (c) =>
 fetchData(API)

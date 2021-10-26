@@ -39,6 +39,6 @@ happen()
   .then((response) => console.log(response))
   .catch((error) => console.error(error));
 // correr varias promesas>
-// Promise.all("Nuestras promesas")==>
+// Promise.all("Nuestras promesas")==>0
 
 console.groupEnd();

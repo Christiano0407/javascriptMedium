@@ -11,6 +11,8 @@ const dataAll = async (url_api) => {
     const data = await fetchData(url_api);
     const character = await fetchData(`${API}${data.results[0].id}`);
     const origin = await fetchData(character.origin.url);
+
+    const twoCharacter = await fetchData(`${API}${data.results[2].id}`);
     //>
     console.log(data.info.count);
     console.log(data.info.pages);
@@ -19,6 +21,9 @@ const dataAll = async (url_api) => {
     console.log(character.location);
     console.log(character.image);
     console.log(origin.dimension);
+
+    console.log(twoCharacter.name);
+    console.log(twoCharacter.location.name);
     //>
   } catch (error) {
     console.error(error);

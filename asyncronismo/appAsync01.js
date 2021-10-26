@@ -38,5 +38,7 @@ const happen = () => {
 happen()
   .then((response) => console.log(response))
   .catch((error) => console.error(error));
+// correr varias promesas>
+// Promise.all("Nuestras promesas")==>
 
 console.groupEnd();

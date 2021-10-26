@@ -13,7 +13,11 @@ const dataAll = async (url_api) => {
     const origin = await fetchData(character.origin.url);
     //>
     console.log(data.info.count);
-    console.log(data.name);
+    console.log(data.info.pages);
+    console.log(character.name);
+    console.log(character.status);
+    console.log(character.location);
+    console.log(character.image);
     console.log(origin.dimension);
     //>
   } catch (error) {

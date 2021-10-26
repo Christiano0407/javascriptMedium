@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/Christiano0407/javascriptMedium#readme",
   "dependencies": {
-    "date-fns": "^2.25.0"
+    "date-fns": "^2.25.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {}
 }

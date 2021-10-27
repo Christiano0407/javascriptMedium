@@ -1,34 +1,27 @@
 console.group("Platzi Video Media");
 // Const>>>
-// <<== Video ==>>
+// <<== Video Const ==>>
 const video = document.getElementById(`movie`);
 console.log(movie);
 const playBtn = document.getElementById(`playButton`);
 const muteBtn = document.getElementById(`muteButton`);
 
-// <<== Video Part==>>
-playBtn.addEventListener("click", handlePlayBtn, false);
-playVideo();
+//> <<== Video Part Events==>>
+video.addEventListener("click", mediaPlayer);
+playBtn.addEventListener("click", mediaPlayer);
+muteBtn.addEventListener("click", mediaMuted);
 
-//==>>
-async function playVideo() {
-  try {
-    await video.play();
-    playBtn.className = "Playing";
-  } catch (error) {
-    playBtn.className = " ";
-  }
+//> << == Invocar====>
+function mediaPlayer() {
+  /* if (video.paused) { */
+  /*   video.play(); */
+  /* } else { */
+  /*   video.pause(); */
+  /* } */
+
+  video[video.paused ? "play" : "pause"]();
 }
-//>
-function handlePlayBtn() {
-  if (video.paused) {
-    playVideo();
-  } else {
-    video.pause();
-    playBtn.className = " ";
-  }
+
+function mediaMuted() {
+  video.muted = true;
 }
-//=
-muteBtn.addEventListener("click", () => {
-  console.log("Muted");
-});

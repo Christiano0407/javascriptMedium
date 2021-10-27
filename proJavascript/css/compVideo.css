@@ -1,0 +1,28 @@
+#vidContainer {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#movie {
+  width: 100%;
+}
+
+#playButton {
+  padding: 1rem;
+  background-color: var(--clr-primary-1);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+#muteButton {
+  padding: 1rem;
+  background-color: var(--clr-primary-1);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}

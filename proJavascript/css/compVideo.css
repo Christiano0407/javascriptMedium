@@ -17,6 +17,13 @@
   border-radius: 0.5rem;
   margin: 1rem 0;
 }
+#playButton:hover {
+  color: var(--clr-primary-1);
+  background: #fff;
+}
+#playButton:active {
+  transform: scale(0.9);
+}
 #muteButton {
   padding: 1rem;
   background-color: var(--clr-primary-1);
@@ -25,4 +32,11 @@
   border: none;
   border-radius: 0.5rem;
   margin: 1rem 0;
+}
+#muteButton :hover {
+  background-color: #000;
+  color: var(--clr-primary-2);
+}
+#muteButton:active {
+  transform: scale(0.9);
 }

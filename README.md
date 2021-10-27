@@ -47,6 +47,12 @@
 
 - [Intersection Observer](https://developer.mozilla.org/es/docs/Web/API/Intersection_Observer_API)
 
+## Pro Javvascript
+
+> Media Elements
+
+- [mediaElements](https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement)
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

@@ -3,6 +3,13 @@
   width: 100%;
   margin: 0 auto;
 }
+#barContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
 
 #movie {
   width: 100%;
@@ -15,7 +22,10 @@
   outline: none;
   border: none;
   border-radius: 0.5rem;
-  margin: 1rem 0;
+  margin: 1rem;
+}
+#playButton i {
+  font-size: 2rem;
 }
 #playButton:hover {
   color: var(--clr-primary-1);
@@ -31,7 +41,10 @@
   outline: none;
   border: none;
   border-radius: 0.5rem;
-  margin: 1rem 0;
+  margin: 1rem;
+}
+#muteButton i {
+  font-size: 2rem;
 }
 #muteButton :hover {
   background-color: #000;
@@ -39,4 +52,29 @@
 }
 #muteButton:active {
   transform: scale(0.9);
+}
+#stopBtn {
+  padding: 1rem;
+  background-color: var(--clr-primary-1);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+#stopBtn i {
+  font-size: 2rem;
+}
+#stopBtn:hover {
+  color: var(--clr-primary-1);
+  background-color: #fff;
+}
+#stopBtn:active {
+  transform: scale(0.9);
+}
+.progress {
+  flex-grow: 1;
+}
+.timestamp {
+  font-size: 1.8rem;
 }

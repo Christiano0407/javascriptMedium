@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
     <link rel="stylesheet" href="/proJavascript/css/styleVideo.css" />
     <title>Javascript Vanilla Pro | Video</title>
   </head>
   <body>
     <header>
-      <h1>Platzi Media</h1>
+      <h1>Media Player</h1>
       <p>All Best Media Player Video</p>
     </header>
 
@@ -21,8 +25,26 @@
           type="video/mp4"
           poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg"
         ></video>
-        <button id="playButton">Play/Pause</button>
-        <button id="muteButton">Mute</button>
+        <div id="barContainer" class="barContainer">
+          <button id="playButton" class="button play">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="stopBtn" class="button stop">
+            <i class="fas fa-stop"></i>
+          </button>
+          <button id="muteButton" class="button muted">
+            <i class="fas fa-volume-mute"></i>
+          </button>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            step="0.1"
+            value="0"
+            class="progress"
+          />
+          <small class="timestamp">00:00</small>
+        </div>
       </section>
 
       <section id="container">

@@ -7,8 +7,9 @@
 #container h2 {
   text-align: center;
   margin: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 #container p {
   margin-bottom: 4rem;

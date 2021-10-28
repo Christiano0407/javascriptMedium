@@ -11,6 +11,7 @@ playBtn.addEventListener("click", mediaPlayer);
 muteBtn.addEventListener("click", mediaMuted);
 stopBtn.addEventListener("click", stopVideo);
 progressBar.addEventListener("change", setVideoProgress);
+video.addEventListener("timeupdate", updateVideoProgress);
 
 //> <<== EXPORTAR == Invocar====>
 export function mediaPlayer() {
@@ -29,8 +30,25 @@ export function mediaMuted() {
 
 export function stopVideo() {
   video.pause();
+  video.currentTime = 0;
+  progressBar.value;
 }
 
 export function setVideoProgress() {
-  progressBar.value = Number((progressBar.value * video.duration) / 100);
+  video.currentTime = Number((progressBar.value * video.duration) / 100);
+}
+export function updateVideoProgress() {
+  progressBar.value = Number((video.currentTime / video.duration) * 100);
+  let minutes = Math.floor(video.currentTime / 60);
+  let seconds = Math.floor(video.currentTime % 60);
+
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+
+  timestamp.textContent = `${minutes}:${seconds}`;
 }

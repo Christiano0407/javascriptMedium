@@ -16,3 +16,5 @@ import { mediaMuted } from "./videoOne.js";
 import { stopVideo } from "./videoOne.js";
 
 import { setVideoProgress } from "./videoOne.js";
+
+import { updateVideoProgress } from "./videoOne.js";

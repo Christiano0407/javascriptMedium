@@ -10,7 +10,7 @@ export const volBtnIcon = muteBtn.querySelector("i");
 export const stopBtn = document.getElementById(`stopBtn`);
 export const progressBar = document.querySelector(".progress");
 export const timestamp = document.querySelector(".timestamp");
-// <<< ==== Importamos y Ejecutamos ==== >>>
+// <<< == Plugins== Importamos y Ejecutamos ==== >>>
 import { mediaPlayer } from "./videoOne.js";
 
 //import { plaIconToogleBtn } from "./videoOne.js";

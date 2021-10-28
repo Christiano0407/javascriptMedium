@@ -38,8 +38,22 @@ function playIconToggleBtn() {
 }
 
 export function mediaMuted() {
-  video.muted = true;
+  //video.muted = true;
   //volToggleBtnIcon();
+  //video.mediaPlayer.mute();
+  //unmute(); > No mute>
+
+  if (video.muted) {
+    //video.unmute();
+    video.muted = false;
+    volBtnIcon.classList.add("fa-volume-up");
+    volBtnIcon.classList.remove("fa-volume-mute");
+  } else {
+    //video.mute();
+    video.muted = true;
+    volBtnIcon.classList.add("fa-volume-mute");
+    volBtnIcon.classList.remove("fa-volume-up");
+  }
 }
 
 /* function volToggleBtnIcon() { */

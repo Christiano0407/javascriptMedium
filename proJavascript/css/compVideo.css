@@ -49,7 +49,7 @@
   font-size: 2rem;
 }
 #muteButton :hover {
-  background-color: #000;
+  background-color: #fff;
   color: var(--clr-primary-2);
 }
 #muteButton:active {

@@ -48,11 +48,13 @@ export function mediaMuted() {
     video.muted = false;
     volBtnIcon.classList.add("fa-volume-up");
     volBtnIcon.classList.remove("fa-volume-mute");
+    video.volume;
   } else {
     //video.mute();
     video.muted = true;
     volBtnIcon.classList.add("fa-volume-mute");
     volBtnIcon.classList.remove("fa-volume-up");
+    video.volume = 0.1;
   }
 }
 

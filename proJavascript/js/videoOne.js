@@ -1,6 +1,7 @@
 // <<<<==== Importamos la base =====>>>>
 import { video } from "../js/appVideoJs.js";
 import { playBtn } from "../js/appVideoJs.js";
+import { playIconBtn } from "../js/appVideoJs.js";
 import { muteBtn } from "../js/appVideoJs.js";
 import { stopBtn } from "../js/appVideoJs.js";
 import { progressBar } from "../js/appVideoJs.js";
@@ -22,6 +23,17 @@ export function mediaPlayer() {
   /* } */
 
   video[video.paused ? "play" : "pause"]();
+  playIconToggleBtn();
+}
+
+function playIconToggleBtn() {
+  if (video.paused) {
+    playIconBtn.classList.remove("fa-pause");
+    playIconBtn.classList.add("fa-play");
+  } else {
+    playIconBtn.classList.remove("fa-play");
+    playIconBtn.classList.add("fa-pause");
+  }
 }
 
 export function mediaMuted() {

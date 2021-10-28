@@ -3,6 +3,7 @@ import { video } from "../js/appVideoJs.js";
 import { playBtn } from "../js/appVideoJs.js";
 import { playIconBtn } from "../js/appVideoJs.js";
 import { muteBtn } from "../js/appVideoJs.js";
+import { volBtnIcon } from "../js/appVideoJs.js";
 import { stopBtn } from "../js/appVideoJs.js";
 import { progressBar } from "../js/appVideoJs.js";
 import { timestamp } from "../js/appVideoJs.js";
@@ -38,7 +39,18 @@ function playIconToggleBtn() {
 
 export function mediaMuted() {
   video.muted = true;
+  //volToggleBtnIcon();
 }
+
+/* function volToggleBtnIcon() { */
+/*   if (video.muted) { */
+/*     volBtnIcon.classList.add("fa-volume-up"); */
+/*     volBtnIcon.classList.remove("fa-volume-mute"); */
+/*   } else { */
+/*     volBtnIcon.classList.add("fa-volume-mute"); */
+/*     volBtnIcon.classList.remove("fa-volume-up"); */
+/*   } */
+/* } */
 
 export function stopVideo() {
   video.pause();

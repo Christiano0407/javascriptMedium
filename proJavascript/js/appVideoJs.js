@@ -6,6 +6,7 @@ console.log(movie);
 export const playBtn = document.getElementById(`playButton`);
 export const playIconBtn = playBtn.querySelector("i");
 export const muteBtn = document.getElementById(`muteButton`);
+export const volBtnIcon = muteBtn.querySelector("i");
 export const stopBtn = document.getElementById(`stopBtn`);
 export const progressBar = document.querySelector(".progress");
 export const timestamp = document.querySelector(".timestamp");

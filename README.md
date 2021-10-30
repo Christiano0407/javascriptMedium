@@ -52,6 +52,16 @@
 > Media Elements
 
 - [mediaElements](https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement)
+  > Method call
+- llama a una función con un valor dado this y con argumentos provistos individualmente.
+- [Method call](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+  > Method apply
+- invoca una determinada función asignando explícitamente el objeto this y un array o similar (array like object) como parámetros (argumentos) para dicha función.
+- [Method apply](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+  > Method bind
+- crea una nueva función, que cuando es llamada, asigna a su operador this el valor entregado, con una secuencia de argumentos dados precediendo a cualquiera entregados cuando la función es llamada.
+- El valor de this es ignorado cuando la función es llamada con el operador new.
+- [Method bind](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
 ## CDN
 

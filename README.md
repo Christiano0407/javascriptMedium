@@ -70,8 +70,12 @@
 ## API
 
 > Api Project
+> Article
 
+- [Article_API](https://medium.com/williambastidasblog/c%C3%B3mo-llamar-a-una-api-rest-desde-javascript-4c5a42fb331)
 - [rapidAPI](https://rapidapi.com/hub?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
+- [axiosAPI](https://axios-http.com/docs/intro)
+- [Public_API](https://github.com/public-apis/public-apis)
 
 # MIT License
 

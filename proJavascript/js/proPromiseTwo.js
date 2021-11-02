@@ -7,104 +7,99 @@ console.group("Promise Movies / Async and Await");
 // Crear función donde obtenemos el primer request que llegue
 // ==============================================================================================
 //const sequence = document.getElementById(`sequence`);
-const parallel = document.getElementById(`parallel`);
-const fastest = document.getElementById(`fastest`);
+//const parallel = document.getElementById(`parallel`);
+//const fastest = document.getElementById(`fastest`);
 
 // ====================================================================================================
 // The Movie Database API: https://developers.themoviedb.org/3/getting-started/introduction
-const API_key = `b89fc45c2067cbd33560270639722eae`;
-//onst API_key = `31431f65dcmsh9642cbacaebda1ap1b6804jsnb245da6a7333`;
-// <<<< (1) >>>>>>
-// Create Async and Await (promises / peticiones)
-//(1)>
-async function getMovies(id) {
-  const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${API_key}`;
+const apiKey = "b89fc45c2067cbd33560270639722eae";
+
+async function getMovie(id) {
+  const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`;
   const response = await fetch(url);
   const data = await response.json();
-  return data.results;
+  return data;
 }
-//(2)>
+
 async function getPopularMovies() {
-  const url = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_key}`;
+  const url = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}`;
   const response = await fetch(url);
   const data = await response.json();
   return data.results;
 }
-//(3)>
+
 async function getTopMoviesIds(n = 3) {
+  // return getPopularMovies().then(popularMovies =>
+  //   popularMovies.slice(0, n).map(movie => movie.id)
+  // );
+  // try {
+  //   const popularMovies = await getPopularMovies();
+  // } catch (error) {
+  //   console.log(error.message)
+  // }
+
   const popularMovies = await getPopularMovies();
   const ids = popularMovies.slice(0, n).map((movie) => movie.id);
   return ids;
 }
 
-getTopMoviesIds(2).then((ids) => console.log(ids));
-
-// <<<<< (2) >>>>>
-// (RENDER)>
 function renderMovies(movies) {
-  const movieList = document.getElementById(`movies`);
-  movieList.innerHTML = ` `;
+  const movieList = document.getElementById("movies");
+  movieList.innerHTML = "";
 
   movies.forEach((movie) => {
-    const listItem = document.createElement(`li`);
-    listItem.innerHTML = ` {
-             <img src="https://image.tmdb.org/t/p/w342${movie.poster_path}" />
-             <h2>${movie.title}</h2>
-             <p>Released on <em>${movie.release_date}</em></p>
-        }`;
+    const listItem = document.createElement("li");
+    listItem.innerHTML = `
+            <img src="https://image.tmdb.org/t/p/w342${movie.poster_path}" />
+            <h5>${movie.title}</h5>
+            <p>Released on <em>${movie.release_date}</em></p>
+            `;
+
     movieList.appendChild(listItem);
   });
 }
 
-// <<<<< (3) >>>>>> (Functions)
-// (A)> ASYNC
-async function getTopMoviesSequences() {
+async function getTopMoviesInSequence() {
   const ids = await getTopMoviesIds();
   const movies = [];
 
   for (const id of ids) {
-    const movie = await getMovies(id);
+    const movie = await getMovie(id);
     movies.push(movie);
   }
 
   return movies;
 }
 
-// (B)> ASYNC
-async function getTopMoviesParallel() {
+async function getTopMoviesInParallel() {
   const ids = await getTopMoviesIds();
-  const moviePromises = ids.map((id) => getMovies(id));
+  const moviePromises = ids.map((id) => getMovie(id));
+
   const movies = await Promise.all(moviePromises);
+
   return movies;
 }
-// (C)>
-async function getFastestTopMovies() {
+
+async function getFastestTopMovie() {
   const ids = await getTopMoviesIds();
-  const moviePromises = ids.map((id) => getMovies(id));
+  const moviePromises = ids.map((id) => getMovie(id));
+
   const movie = await Promise.race(moviePromises);
   return movie;
 }
 
-//<<<< (4) >>>>
-// (A1)
-/* sequence.addEventListener(`click`, async () => { */
-/*   const movies = await getTopMoviesSequences(); */
-/*   renderMovies(movies); */
-/* }); */
-// (A2)
-document.getElementById(`sequence`).onclick = async function () {
-  const movies = await getTopMoviesSequences();
+document.getElementById("sequence").onclick = async function () {
+  const movies = await getTopMoviesInSequence();
   renderMovies(movies);
 };
 
-parallel.addEventListener(`click`, async () => {
-  const movies = await getTopMoviesParallel();
+document.getElementById("parallel").onclick = async function () {
+  const movies = await getTopMoviesInParallel();
   renderMovies(movies);
-});
+};
 
-fastest.addEventListener(`click`, async () => {
-  const movie = await getFastestTopMovies();
+document.getElementById("fastest").onclick = async function () {
+  const movie = await getFastestTopMovie();
   renderMovies([movie]);
-});
-
+};
 console.groupEnd();

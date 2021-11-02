@@ -63,6 +63,11 @@
 - El valor de this es ignorado cuando la función es llamada con el operador new.
 - [Method bind](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
+> Proxy
+
+- El objeto Proxy se usa para definir un comportamiento personalizado para operaciones fundamentales (por ejemplo, para observar propiedades, cuando se asignan, enumeración, invocación de funciones, etc).
+- [proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

@@ -73,8 +73,9 @@
 
 - El objeto Proxy se usa para definir un comportamiento personalizado para operaciones fundamentales (por ejemplo, para observar propiedades, cuando se asignan, enumeración, invocación de funciones, etc).
 - [proxy](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+  ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2017-fb04470d-a18a-4a0a-bf2b-c94464b53410.jpg)
 
-> Generators / Generador
+  > Generators / Generador
 
 - El objeto Generator es retornado por una función generator y es conformado tanto el protocolo iterable como el protocolo iterador.
   -Los generadores regresan una función.
@@ -83,6 +84,10 @@
   -yield es la instrucción que regresa un valor cada vez que llamamos a next y detiene la ejecución del generador.
 - [generators](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Generator)
   ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2018-15804034-3196-4382-a0b0-c8f1ec6e1209.jpg)
+
+> Notas de curso
+
+- [notas](https://github.com/JasanHdz/javascript-professional/tree/master/notes)
 
 ## CDN
 
@@ -101,6 +106,8 @@
 - [Header_api](https://developer.mozilla.org/en-US/docs/Web/API/Headers)
 - [Request_api](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 - [Response_api](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+  > Fetch
+  > ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2019-451f0b1e-207a-473e-81c3-df604fe790f1.jpg)
 
 # MIT License
 

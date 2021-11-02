@@ -76,6 +76,7 @@
   -Regresan un value y un boolean done que define si ya terminaron.
   -yield es la instrucción que regresa un valor cada vez que llamamos a next y detiene la ejecución del generador.
 - [generators](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+  ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2018-15804034-3196-4382-a0b0-c8f1ec6e1209.jpg)
 
 ## CDN
 

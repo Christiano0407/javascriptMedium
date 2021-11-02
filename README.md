@@ -49,6 +49,12 @@
 
 ## Pro Javvascript
 
+> Curso Profesional en Platzi
+
+- [Platzi](https://platzi.com/home)
+  > Github
+- [gitHub-Sparragus](https://github.com/Sparragus/javascript-profesional)
+
 > Media Elements
 
 - [mediaElements](https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement)

@@ -28,6 +28,8 @@ import { setVideoProgress } from "./videoOne.js";
 
 import { updateVideoProgress } from "./videoOne.js";
 
+import { visibleVideo } from "./videoOne.js";
+
 // (2) <<<<<<<<<<<<<<<<< blog / Intersection Observer >>>>>>>>>>>>>>>>>>>>>>>//> function de cargar Imagen>
 // << Entrada (entrada al Viewport) === interObserver >>
 const loadingImage = (interObserver, allObserver) => {

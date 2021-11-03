@@ -49,6 +49,7 @@
 - ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2021-abb41ba4-4288-4ed8-8171-91dada378c5b.jpg)
   > Visibility Change
 - [visibility MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event)
+- El visibilityChange forma parte del API del DOM llamado Page Visibility y nos deja saber si el elemento es visible, pude ser usado para ejecutar una acción cuando cambiamos de pestaña. Así podemos ahorrar batería y mejorar la UX.
 - ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2022-887803ad-02a6-46d5-94fa-2a0384b9287f.jpg)
 
 ## Pro Javvascript

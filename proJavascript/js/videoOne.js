@@ -14,6 +14,7 @@ muteBtn.addEventListener("click", mediaMuted);
 stopBtn.addEventListener("click", stopVideo);
 progressBar.addEventListener("change", setVideoProgress);
 video.addEventListener("timeupdate", updateVideoProgress);
+video.addEventListener("visibilitychange", visibleVideo);
 
 //> <<== EXPORTAR == Invocar====>
 export function mediaPlayer() {
@@ -22,7 +23,6 @@ export function mediaPlayer() {
   /* } else { */
   /*   video.pause(); */
   /* } */
-
   video[video.paused ? "play" : "pause"]();
   playIconToggleBtn();
 }
@@ -35,6 +35,20 @@ function playIconToggleBtn() {
     playIconBtn.classList.remove("fa-play");
     playIconBtn.classList.add("fa-pause");
   }
+}
+
+export function visibleVideo() {
+  if (video.visibilityState === `visible`) {
+    video.play();
+    //backgroundMusic.play();
+  } else {
+    video.pause();
+    //backgroundMusic.pause();
+  }
+
+  /* if (video.visibilityState === `hidden`) { */
+  /*   navigator.sendBeacon(`/log`, analyticsData); */
+  /* } */
 }
 
 export function mediaMuted() {

@@ -102,12 +102,22 @@
 - [rapidAPI](https://rapidapi.com/hub?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
 - [axiosAPI](https://axios-http.com/docs/intro)
 - [Public_API](https://github.com/public-apis/public-apis)
+- [pexels API](https://www.pexels.com/es-es/api/documentation/)
   > API MDN
 - [Header_api](https://developer.mozilla.org/en-US/docs/Web/API/Headers)
 - [Request_api](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 - [Response_api](https://developer.mozilla.org/en-US/docs/Web/API/Response)
   > Fetch
   > ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2019-451f0b1e-207a-473e-81c3-df604fe790f1.jpg)
+- [Blob Js](https://developer.mozilla.org/es/docs/Web/API/Blob)
+- Un objeto Blob representa un objeto tipo fichero de datos planos inmutables. Los Blobs representan datos que no necesariamente se encuentran en un formato nativo de JavaScript. La interfaz File se encuentra basada en un Blob, heredando y expendiendo la funcionalidad de un Blob para soportar archivos en el sistema del usuario.
+- Una forma fácil de construir un Blob es invocando el constructor Blob(). Otra manera es utilizando el método slice() para crear un blob que contiene un subconjunto de los datos de otro Blob.
+- [AbortController Js](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
+- The AbortController interface represents a controller object that allows you to abort one or more Web requests as and when desired.
+- You can create a new AbortController object using the AbortController() constructor. Communicating with a DOM request is done using an AbortSignal object.
+  > Disabled
+- [disabled](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled)
+- The HTMLSelectElement.disabled is a boolean value that reflects the disabled HTML attribute, which indicates whether the control is disabled. If it is disabled, it does not accept clicks. A disabled element is unusable and un-clickable.
 
 # MIT License
 

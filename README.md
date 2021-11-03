@@ -46,6 +46,7 @@
 > La API Observador de Intersección provee una vía asíncrona para observar cambios en la intersección de un elemento con un elemento ancestro o con el viewport del documento de nivel superior.
 
 - [Intersection Observer](https://developer.mozilla.org/es/docs/Web/API/Intersection_Observer_API)
+- ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2021-abb41ba4-4288-4ed8-8171-91dada378c5b.jpg)
 
 ## Pro Javvascript
 

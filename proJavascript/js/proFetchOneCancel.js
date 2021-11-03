@@ -7,6 +7,8 @@ const img = document.getElementById(`huge-img`);
 console.log(img);
 const loadBtn = document.getElementById(`load`);
 const stopBtn = document.getElementById(`stop`);
+let controller;
+
 //> Functions>
 //(A)
 function startLoading() {
@@ -26,7 +28,7 @@ function stopLoading() {
 //(1)
 loadBtn.addEventListener(`click`, async function () {
   startLoading();
-  controller = new AbortController(); //Abortar la petición / fetch>
+  controller = new AbortController(); // < Abortar la petición / fetch > / Instancia "NEW"
   //Traer las promesas/async and await>
   try {
     const response = await fetch(url, { signal: controller.signal }); //Abortar>

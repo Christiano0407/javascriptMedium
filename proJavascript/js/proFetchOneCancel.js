@@ -30,8 +30,8 @@ loadBtn.addEventListener(`click`, async function () {
   //Traer las promesas/async and await>
   try {
     const response = await fetch(url, { signal: controller.signal }); //Abortar>
-    const blob = await response.blob();
-    const imgUrl = URL.createObjectURL(blob);
+    const blob = await response.blob(); //< Binario = dela petición(IMG en forma Binaria) /Fetch>
+    const imgUrl = URL.createObjectURL(blob); // < Convertir lo "Binario" == URL >
     img.src = imgUrl;
   } catch (error) {
     console.log(error.message);

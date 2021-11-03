@@ -26,7 +26,7 @@
 }
 #container img {
   width: 500px;
-  height: 250px;
+  height: 300px;
   /* overflow: hidden; */
   object-fit: cover;
   background-position: center;
@@ -34,4 +34,23 @@
   background-size: cover;
   margin-bottom: 4rem;
   border-radius: 0.5rem;
+
+  /*Transform / animation / Transition*/
+  opacity: 0;
+  transform: scale(0.9);
+  transition: 0.7s ease-in-out;
+}
+/*Transform / animation / Transition*/
+
+#container figure img.left {
+  transform: translateX(-100px);
+}
+
+#container figure img.right {
+  transform: translateX(100px);
+}
+
+#container figure img.visible {
+  opacity: 1;
+  transform: scale(1) translateX(0);
 }

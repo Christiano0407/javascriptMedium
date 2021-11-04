@@ -59,3 +59,9 @@ allObserver.observe(imgTwo);
 allObserver.observe(imgThree);
 
 // << ============================== (3) ================================== >>
+// << Service Workers >>
+if (`serviceWorkers` in navigator) {
+  navigator.serviceWorker.register(`/sw.js`).catch((error) => {
+    console.log(error.message);
+  });
+}

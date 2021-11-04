@@ -14,7 +14,6 @@ muteBtn.addEventListener("click", mediaMuted);
 stopBtn.addEventListener("click", stopVideo);
 progressBar.addEventListener("change", setVideoProgress);
 video.addEventListener("timeupdate", updateVideoProgress);
-video.addEventListener("visibilitychange", visibleVideo);
 
 //> <<== EXPORTAR == Invocar====>
 export function mediaPlayer() {
@@ -36,20 +35,21 @@ function playIconToggleBtn() {
     playIconBtn.classList.add("fa-pause");
   }
 }
-
-export function visibleVideo() {
-  if (video.visibilityState === `visible`) {
+//
+document.addEventListener("visibilitychange", function () {
+  if (document.visibilityState === `visible`) {
     video.play();
     //backgroundMusic.play();
   } else {
     video.pause();
     //backgroundMusic.pause();
   }
+  //video[document.visibilityState === "visible" ? "play" : "pause"]();
+});
 
-  /* if (video.visibilityState === `hidden`) { */
-  /*   navigator.sendBeacon(`/log`, analyticsData); */
-  /* } */
-}
+/* if (document.visibilityState === `hidden`) { */
+/*   navigator.sendBeacon(`/log`, analyticsData); */
+/* } */
 
 export function mediaMuted() {
   //video.muted = true;

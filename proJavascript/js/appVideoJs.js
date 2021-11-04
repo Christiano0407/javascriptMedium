@@ -18,8 +18,6 @@ const imgThree = document.getElementById(`imgThree`);
 // <<< == Plugins== Importamos y Ejecutamos ==== >>>
 import { mediaPlayer } from "./videoOne.js";
 
-//import { plaIconToogleBtn } from "./videoOne.js";
-
 import { mediaMuted } from "./videoOne.js";
 
 import { stopVideo } from "./videoOne.js";
@@ -28,10 +26,10 @@ import { setVideoProgress } from "./videoOne.js";
 
 import { updateVideoProgress } from "./videoOne.js";
 
-import { visibleVideo } from "./videoOne.js";
+//import { visibleVideo } from "./videoOne.js";
 
 // (2) <<<<<<<<<<<<<<<<< blog / Intersection Observer >>>>>>>>>>>>>>>>>>>>>>>//> function de cargar Imagen>
-// << Entrada (entrada al Viewport) === interObserver >>
+// << Entrada (entrada al Viewport) === interObserver / o entries >>
 const loadingImage = (interObserver, allObserver) => {
   /*  console.log("Ejecutando"); */
   /*  console.log(interObserver); */

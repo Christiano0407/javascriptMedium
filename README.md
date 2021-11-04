@@ -105,10 +105,17 @@
 
 ## Typescript
 
+- [typescript](https://www.typescriptlang.org/)
+
 - TypeScript es un superset de JavaScript que añade tipos a nuestras variables ayudando así a la detección de errores de forma temprana y mejorando el autocompletado.
 
 - Los navegadores no entienden TypeScript así que lo vamos a transpilar a JavaScript usando Parcel.
 - [](https://parceljs.org/)
+- Before we get started, you'll need to install Node and Yarn or npm, and create a directory for your project. Then, install Parcel into your app using Yarn:
+
+#### Inline code
+
+`$ npm install marked`
 
 ## CDN
 

@@ -135,6 +135,7 @@
 
 - [Guide Typescript](https://static.platzi.com/media/public/uploads/platzi_slides_fundamentos-typescript_61b51d92-9d96-4ace-ab85-9cb23cbef600.pdf)
 - `$ npm install -g typescript`
+- `npm install typescript ts-loader @types/express -D`
 - `$ tsc --version `
 - `$ tsc -v`
   > Usando el compilador tsc
@@ -153,6 +154,18 @@
 - `$ tsc --project platzi`
   > Omite la configuración
 - `tsc file.ts`
+
+## npm (Node Package Manage) / nvm (Node Version Manager)
+
+- Node Versión Manager (NVM) es una herramienta que nos permite administrar múltiples versiones de Node.js. Gracias a NVM podemos instalar las versiones más recientes de node.js incluido npm o instalar una versión especifica y poder cambiar entre versiones fácilmente desde la línea de comandos.
+- NVM nos permite instalar y administrar correctamente las versiones de Node.js que necesitemos para nuestros proyectos.
+
+  > nvm Github
+
+- [node/npm/nvm](https://github.com/nvm-sh/nvm)
+  > Óscar Barajas / nvm install in Ubuntu
+- [nvm_ubuntu](https://gndx.dev/blog/instalar-nvm-en-ubuntu-20.04)
+- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
 
 ## CDN
 

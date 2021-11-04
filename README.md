@@ -103,6 +103,13 @@
 - Ejemplo: Push notification, guardar información en cache, deep links, etc.
 - [service_Workers_API](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API)
 
+## Typescript
+
+- TypeScript es un superset de JavaScript que añade tipos a nuestras variables ayudando así a la detección de errores de forma temprana y mejorando el autocompletado.
+
+- Los navegadores no entienden TypeScript así que lo vamos a transpilar a JavaScript usando Parcel.
+- [](https://parceljs.org/)
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

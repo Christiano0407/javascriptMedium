@@ -166,6 +166,8 @@
   > Óscar Barajas / nvm install in Ubuntu
 - [nvm_ubuntu](https://gndx.dev/blog/instalar-nvm-en-ubuntu-20.04)
 - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+  > npm
+  > ![](https://static.platzi.com/media/user_upload/JS%20%E2%80%93%2031-dd8defe4-29bf-4bb9-8260-07fb80d965bc-81e296f1-6370-44e0-8e6d-fe1946826aba.jpg)
 
 ## CDN
 

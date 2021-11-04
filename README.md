@@ -111,12 +111,16 @@
 
 ## Typescript
 
+> Typescript
+
 - [typescript](https://www.typescriptlang.org/)
+  > Github Typescript
+- [gitHub Typescript](https://github.com/topics/typescript)
 
 - TypeScript es un superset de JavaScript que añade tipos a nuestras variables ayudando así a la detección de errores de forma temprana y mejorando el autocompletado.
-
 - Los navegadores no entienden TypeScript así que lo vamos a transpilar a JavaScript usando Parcel.
-- [](https://parceljs.org/)
+  > Parcel
+- [parcel Js](https://parceljs.org/)
 - Before we get started, you'll need to install Node and Yarn or npm, and create a directory for your project. Then, install Parcel into your app using Yarn:
 
 #### Inline code
@@ -125,6 +129,9 @@
 
 > Course Typescript
 > Course with Platzi
+> Twuitter:
+
+- [luixaviles](https://twitter.com/luixaviles)
 
 - [Guide Typescript](https://static.platzi.com/media/public/uploads/platzi_slides_fundamentos-typescript_61b51d92-9d96-4ace-ab85-9cb23cbef600.pdf)
 - `$ npm install -g typescript`

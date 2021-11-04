@@ -147,6 +147,13 @@
 - [disabled](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled)
 - The HTMLSelectElement.disabled is a boolean value that reflects the disabled HTML attribute, which indicates whether the control is disabled. If it is disabled, it does not accept clicks. A disabled element is unusable and un-clickable.
 
+## Patrones de Diseño
+
+- Son soluciones generales ya probadas dentro de un contexto que las limita a problemas frecuentes que nos encontramos en el desarrollo de software.
+  > Material
+- [Material](https://material.io/)
+- [MyDevice](https://www.mydevice.io/#compare-devices)
+
 # MIT License
 
 MIT License

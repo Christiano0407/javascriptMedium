@@ -121,6 +121,32 @@
 
 `$ npm install marked`
 
+> Course Typescript
+> Course with Platzi
+
+- [Guide Typescript](https://static.platzi.com/media/public/uploads/platzi_slides_fundamentos-typescript_61b51d92-9d96-4ace-ab85-9cb23cbef600.pdf)
+  `$ npm install -g typescript`
+  `$ tsc --version `
+  `$ tsc -v`
+  > Usando el compilador tsc
+  > `$ tsc hello.ts`
+  > `ls`
+- hello.js hello.ts
+  `$ node hello.js`
+  > La opción --watch
+  > `$ tsc --watch hello.ts`
+  > Archivo de Configuración / tsconfig.json
+- Especifica la raíz de un proyecto
+- Permite configurar opciones para el compilador
+  `$ tsc --init`
+  > tsConfig.json >>>
+  > Busca la configuración
+  > `$ tsc`
+  > Especifica un directorio que contiene la configuración
+  > `$ tsc --project platzi`
+  > Omite la configuración
+  > `tsc file.ts`
+
 ## CDN
 
 - [cdn](https://cdnjs.com/)

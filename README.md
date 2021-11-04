@@ -41,6 +41,8 @@
   > Method Sort: method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 - [Method Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
+![](https://pbs.twimg.com/media/FDW8oHDVkAA-Mkc?format=jpg&name=900x900)
+
 ## Intersection Observer API
 
 > La API Observador de Intersección provee una vía asíncrona para observar cambios en la intersección de un elemento con un elemento ancestro o con el viewport del documento de nivel superior.
@@ -129,8 +131,7 @@
   `$ tsc --version `
   `$ tsc -v`
   > Usando el compilador tsc
-  > `$ tsc hello.ts`
-  > `ls`
+  > `$ tsc hello.ts` > `ls`
 - hello.js hello.ts
   `$ node hello.js`
   > La opción --watch

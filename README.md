@@ -149,10 +149,55 @@
 
 ## Patrones de Diseño
 
+> Christopher Alexander
+> Libro: Design Patterns
+> Blog
+
+- [codingHorror](https://blog.codinghorror.com/)
+  > Patrones de Diseño:
 - Son soluciones generales ya probadas dentro de un contexto que las limita a problemas frecuentes que nos encontramos en el desarrollo de software.
+  > Tres Categorías:
+  > Creacionales
+- Creacionales. Proveen diferentes mecanismos para crear objetos.
+- Abstract Factory
+- Builder
+- Factory Method
+- Prototype
+- Singleton
+  > Estructurales
+- Estructurales. Describen formas de componer objetos para formar nuevas estructuras flexibles y eficientes.
+- Describen formas de componer objetos para formar nuevas estructuras flexibles y eficientes.
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+  > De Comportamiento.
+- De Comportamiento. Gestionan algoritmos y responsabilidades entre objetos.
+- Gestionan algoritmos y responsabilidades entre objetos.
+- Chain of Responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
+
   > Material
+
 - [Material](https://material.io/)
 - [MyDevice](https://www.mydevice.io/#compare-devices)
+- [Every_Layout](https://every-layout.dev/)
+- [Notion](https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=372709093351&utm_term=notion&targetid=aud-1188813422817:kwd-312974742&gclid=CjwKCAjwiY6MBhBqEiwARFSCPkJEsH-50gpZcrqF9hSMRExK8pbTe19RiBPY-T5pVpRvDy2lBp9sxhoCCksQAvD_BwE)
+- [Media_Queries](https://mediaqueri.es/)
+- [Behance](https://www.behance.net/)
+- [Dribble](https://dribbble.com/studioMUTI)
 
 # MIT License
 

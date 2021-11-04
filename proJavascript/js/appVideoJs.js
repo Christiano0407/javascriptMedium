@@ -57,3 +57,5 @@ const allObserver = new IntersectionObserver(loadingImage, {
 allObserver.observe(imgOne);
 allObserver.observe(imgTwo);
 allObserver.observe(imgThree);
+
+// << ============================== (3) ================================== >>

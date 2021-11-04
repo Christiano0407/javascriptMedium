@@ -36,16 +36,16 @@ function playIconToggleBtn() {
   }
 }
 //
-document.addEventListener("visibilitychange", function () {
-  if (document.visibilityState === `visible`) {
-    video.play();
-    //backgroundMusic.play();
-  } else {
-    video.pause();
-    //backgroundMusic.pause();
-  }
-  //video[document.visibilityState === "visible" ? "play" : "pause"]();
-});
+/* document.addEventListener("visibilitychange", function () { */
+/*   if (document.visibilityState === `visible`) { */
+/*     video.play(); */
+/*     //backgroundMusic.play(); */
+/*   } else { */
+/*     video.pause(); */
+/*     //backgroundMusic.pause(); */
+/*   } */
+/*   //video[document.visibilityState === "visible" ? "play" : "pause"](); */
+/* }); */
 
 /* if (document.visibilityState === `hidden`) { */
 /*   navigator.sendBeacon(`/log`, analyticsData); */
@@ -60,12 +60,14 @@ export function mediaMuted() {
   if (video.muted) {
     //video.unmute();
     video.muted = false;
+    //video.unmute();
     volBtnIcon.classList.add("fa-volume-up");
     volBtnIcon.classList.remove("fa-volume-mute");
     video.volume;
   } else {
     //video.mute();
     video.muted = true;
+    //video.mute();
     volBtnIcon.classList.add("fa-volume-mute");
     volBtnIcon.classList.remove("fa-volume-up");
     video.volume = 0.1;

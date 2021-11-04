@@ -99,6 +99,8 @@
 - Sirven para hacer que nuestras aplicaciones funcionen Offline.
 - Muy usados en las Progressive Web Apps (PWA) los ServiceWorkers son una capa que vive entre el navegador y el Internet.
 - Parecido a como lo hacen los proxys van a interceptar peticiones para guardar el resultado en cache y la próxima vez que se haga la petición tomar del cache ese resultado.
+- Un service worker es una secuencia de comandos que corren en segundo plano en el navegador.
+- Ejemplo: Push notification, guardar información en cache, deep links, etc.
 - [service_Workers_API](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API)
 
 ## CDN

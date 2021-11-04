@@ -229,6 +229,23 @@
 - [Behance](https://www.behance.net/)
 - [Dribble](https://dribbble.com/studioMUTI)
 
+## Tips Web
+
+> George Moller
+
+- [Twitter](https://twitter.com/_georgemoller)
+  ![](https://pbs.twimg.com/media/FDTCgO8XoAo7hTt?format=jpg&name=medium)
+  ![](https://pbs.twimg.com/media/FDSacsjXsAIymEM?format=jpg&name=medium)
+  ![](https://pbs.twimg.com/media/FDR0OMmWQAAHcdW?format=jpg&name=4096x4096)
+  ![](https://pbs.twimg.com/media/FDNfSNeXoAEZcmU?format=jpg&name=medium)
+  ![](https://pbs.twimg.com/media/FDNfR8aXoAYbM91?format=jpg&name=medium)
+  ![](https://pbs.twimg.com/media/FDNfRqlWYAk7WZk?format=jpg&name=medium)
+  ![](https://pbs.twimg.com/media/FDNfRWQXEAQdN5s?format=jpg&name=medium)
+  > CSS Style guide
+  > ![](https://pbs.twimg.com/media/FDMpBODXMAAslek?format=jpg&name=medium)
+  > Fonts
+  > ![](https://twitter.com/_georgemoller/status/1455552243760091136/photo/4)
+
 ## Bases de Datos
 
 > MongoDB

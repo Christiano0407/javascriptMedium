@@ -54,6 +54,10 @@
 
 ## Pro Javvascript
 
+> Guide Pro Javascript
+
+- [Guide Course Pro Js](https://static.platzi.com/media/public/uploads/slides-curso-profesional-de-javascript_3dde967c-8534-4041-891d-317d033e2724.pdf)
+
 > Curso Profesional en Platzi
 
 - [Platzi](https://platzi.com/home)
